@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/ch4_2_rg"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+2=4"
+            android:tag="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+3=4"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="4+3=4"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="5+2=4"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" &lt;RadioGroup&#xA;        android:layout_width=&quot;match_parent&quot;&#xA;        android:id=&quot;@+id/ch4_2_rg&quot;&#xA;        android:layout_height=&quot;wrap_content&quot;>&#xA;&#xA;        &lt;RadioButton&#xA;            android:layout_width=&quot;wrap_content&quot;&#xA;            android:text=&quot;2+2=4&quot;&#xA;            android:tag=&quot;1&quot;&#xA;            android:layout_height=&quot;wrap_content&quot; />&#xA;        &lt;RadioButton&#xA;            android:layout_width=&quot;wrap_content&quot;&#xA;            android:text=&quot;2+3=4&quot;&#xA;            android:layout_height=&quot;wrap_content&quot; />&#xA;        &lt;RadioButton&#xA;            android:layout_width=&quot;wrap_content&quot;&#xA;            android:text=&quot;4+3=4&quot;&#xA;            android:layout_height=&quot;wrap_content&quot; />&#xA;        &lt;RadioButton&#xA;            android:layout_width=&quot;wrap_content&quot;&#xA;            android:text=&quot;5+2=4&quot;&#xA;            android:layout_height=&quot;wrap_content&quot; />&#xA;    &lt;/RadioGroup>&#xA;&#xA;    &lt;TextView&#xA;        android:layout_width=&quot;wrap_content&quot;&#xA;        android:id=&quot;@+id/ch4_2_tv&quot;&#xA;        android:layout_height=&quot;wrap_content&quot; />" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ch4_2_tv"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
