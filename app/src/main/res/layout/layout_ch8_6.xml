@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+    <!--tablerow代表创建一行，每一个button代表一列,layoutweight代表一行中的比例，layoutspan代表行间比例-->
+    <!--gravity代表内容在全局中的位置；layout_gravity代表文字在容器内部的位置-->
+    <!--layout_marginLeft/right左边距/右边距-->
+    <TableRow>
+       <TextView android:text="用户名:" android:textColor="#ffffff" android:layout_weight="1" android:gravity="right"/>
+        <EditText android:hint="请输入用户名" android:background="#ffffff" android:layout_weight="1"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="确定" android:layout_weight="1" android:layout_marginLeft="20dp"/>
+        <Button android:text="取消" android:layout_weight="1" android:layout_marginRight="20dp"/>
+    </TableRow>
+
+</TableLayout>

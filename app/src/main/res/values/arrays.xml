@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="intArr">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="strArr">
+        <item>str1</item>
+        <item>str2</item>
+        <item>str3</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>con1</item>
+        <item>con2</item>
+        <item>con3</item>
+        <item>con4</item>
+        <item>con5</item>
+        <item>con6</item>
+
+
+    </string-array>
+    <array name="commanArr">
+        <item>@drawable/img</item>
+        <item>str1</item>
+    </array>
+</resources>

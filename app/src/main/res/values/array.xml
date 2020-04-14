@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="testTitle">
+        <item>为了使android适应不同分辨率的机型，布局时字体单位应用</item>
+        <item>在手机开发中，常用的数据库是哪一个？</item>
+        <item>下列哪个属性是专用于相对布局的？</item>
+    </string-array>
+    <string-array name="testOption1">
+        <item>dp</item>
+        <item>dip</item>
+        <item>px</item>
+        <item>sp</item>
+    </string-array>
+
+    <string-array name="testOption2">
+        <item>Oracle</item>
+        <item>DB2</item>
+        <item>Mysql</item>
+        <item>SQLite</item>
+    </string-array>
+
+    <string-array name="testOption3">
+        <item>layout_toRightOf</item>
+        <item>stretchColumns</item>
+        <item>layout_width</item>
+        <item>orientation</item>
+    </string-array>
+    <array name="testOptionAll">
+        <item>@array/testOption1</item>
+        <item>@array/testOption2</item>
+        <item>@array/testOption3</item>
+    </array>
+    <integer-array name="anwser">
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>

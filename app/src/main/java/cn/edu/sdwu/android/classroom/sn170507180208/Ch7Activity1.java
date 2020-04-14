@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import static android.R.id.list;
 
 public class Ch7Activity1 extends AppCompatActivity {
-
+    private ArrayList list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
