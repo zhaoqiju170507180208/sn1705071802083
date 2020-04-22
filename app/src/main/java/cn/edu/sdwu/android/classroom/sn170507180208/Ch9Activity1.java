@@ -21,24 +21,24 @@ public class Ch9Activity1 extends AppCompatActivity {
         AutoCompleteTextView autoCompleteTextView=(AutoCompleteTextView)findViewById(R.id.ch9_1_act);
         autoCompleteTextView.setAdapter(arrayAdapter);
 
-        progressBar=(ProgressBar)findViewById(R.id.ch9_1_pb);
+        //progressBar=(ProgressBar)findViewById(R.id.ch9_1_pb);
     }
 
-    public void prograssStart(View view){
-        Thread thread=new Thread(){
-            public void run(){
-                int i=0;
-                while(i<=100){
-                    progressBar.setProgress(i);
-                    try{
-                        Thread.sleep(1000);
-                    }catch (Exception e){
-
-                    }
-                    i+=25;
-                }
-            }
-        };
-        thread.start();
-    }
+    //public void prograssStart(View view){
+    //    Thread thread=new Thread(){
+   //         public void run(){
+     //           int i=0;
+       //         while(i<=100){
+         //           progressBar.setProgress(i);
+           //         try{
+             //           Thread.sleep(1000);
+               //     }catch (Exception e){
+//
+  //                  }
+    //                i+=25;
+     //           }
+      //      }
+       // };
+        //thread.start();
+   // }
 }

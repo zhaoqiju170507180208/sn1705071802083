@@ -1,5 +1,6 @@
 package cn.edu.sdwu.android.classroom.sn170507180208;
 
+import android.app.NotificationManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -71,6 +72,8 @@ public class Ch6Activity1 extends AppCompatActivity {
        }catch (Exception e){
            Log.e(Ch6Activity1.class.toString(),e.toString());
        }
+        NotificationManager notificationManager=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
+        notificationManager.cancel(101);
     }
     //2)创建上下文菜单
     @Override
